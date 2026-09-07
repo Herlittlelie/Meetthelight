@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Light — Experience Ananda Transfer 1 to 1</title>
+    <meta name="description" content="Experience Ananda Transfer 1 to 1 — Unconditional Love, Unity, and Joy led by Andy, a medical doctor with 15+ years experience.">
+    <meta property="og:title" content="Meet the Light — Ananda Transfer 1 to 1">
+    <meta property="og:description" content="Join an unforgettable experience of unity consciousness and unconditional love.">
+    <meta property="og:image" content="/og-image.jpg">
+    
+    <style>
+        /* ========== CSS RESET & BASE ========== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #2c3e50;
+            background: #fafaf8;
+            line-height: 1.6;
+        }
+
+        /* ========== TYPOGRAPHY ========== */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            color: #1a2d3f;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #294675;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffc44f;
+        }
+
+        /* ========== COLOR PALETTE ========== */
+        :root {
+            --primary: #294675;
+            --accent-warm: #ffc44f;
+            --accent-spiritual: #a191bf;
+            --accent-calm: #b0c9d6;
+            --dark-text: #1a2d3f;
+            --light-bg: #fafaf8;
+            --card-bg: #ffffff;
+            --border: #e8e6e1;
+        }
+
+        /* ========== NAVIGATION ========== */
+        header {
+            position: sticky;
+            top: 0;
+            background: var(--light-bg);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            backdrop-filter: blur(8px);
+            background-color: rgba(250, 250, 248, 0.95);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--dark-text);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1.5rem;
+                font-size: 0.85rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* ========== CONTAINERS & SECTIONS ========== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 5rem 0;
+        }
+
+        section:nth-child(odd) {
+            background: var(--light-bg);
+        }
+
+        section:nth-child(even) {
+            background: var(--card-bg);
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            padding: 6rem 2rem;
+        }
+
+        .hero-content h1 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-subheading {
+            font-size: 1.25rem;
+            color: #555;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .hero-subheading a {
+            color: var(--accent-warm);
+            font-weight: 600;
+            border-bottom: 2px solid var(--accent-warm);
+        }
+
+        .proof-line {
+            font-size: 0.95rem;
+            color: #777;
+            margin-top: 2.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .proof-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent-warm);
+            border-radius: 50%;
+        }
+
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            background: linear-color-stop(135deg, rgba(41, 70, 117, 0.05) 0%, rgba(255, 196, 79, 0.05) 100%);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 3rem 2rem;
+            }
+
+            .hero-visual {
+                height: 350px;
+            }
+        }
+
+        /* ========== BUTTON STYLES ========== */
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 2px 8px rgba(41, 70, 117, 0.2);
+        }
+
+        .btn-primary:hover {
+            background: #1f3a56;
+            box-shadow: 0 4px 12px rgba(41, 70, 117, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-link {
+            background: none;
+            color: var(--accent-warm);
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 0;
+            font-size: 1rem;
+        }
+
+        .btn-link:hover {
+            color: var(--primary);
+        }
+
+        /* ========== ABOUT SECTION ========== */
+        .about-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .about-photo {
+            width: 200px;
+            height: 200px;
+            margin: 2rem auto;
+            background: linear-gradient(135deg, var(--accent-spiritual), var(--accent-calm));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* ========== TESTIMONIALS SECTION ========== */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-warm);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .testimonial-card:nth-child(2) {
+            border-left-color: var(--accent-spiritual);
+        }
+
+        .testimonial-quote {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--dark-text);
+            font-size: 0.95rem;
+        }
+
+        .testimonials-cta {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .read-more-link {
+            font-size: 1rem;
+            color: var(--primary);
+            font-weight: 600;
+            border-bottom: 2px solid var(--primary);
+            transition: all 0.3s ease;
+        }
+
+        .read-more-link:hover {
+            color: var(--accent-warm);
+            border-bottom-color: var(--accent-warm);
+        }
+
+        @media (max-width: 768px) {
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ========== EVENTS SECTION ========== */
+        .events-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .event-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            border-top: 4px solid var(--primary);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .event-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .event-date {
+            font-size: 0.95rem;
+            color: #777;
+            margin-bottom: 1rem;
+        }
+
+        .event-type {
+            display: inline-block;
+            background: var(--accent-warm);
+            color: var(--dark-text);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .event-description {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        /* ========== FAQ SECTION ========== */
+        .faq-item {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--dark-text);
+            margin-bottom: 1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        .faq-question:hover {
+            color: var(--primary);
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-answer {
+            display: none;
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.7;
+        }
+
+        .faq-item.open .faq-answer {
+            display: block;
+        }
+
+        .faq-item.open .faq-toggle {
+            transform: rotate(180deg);
+        }
+
+        /* ========== NEWSLETTER SECTION ========== */
+        .newsletter {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .newsletter h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter p {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 500px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            min-width: 200px;
+            padding: 1rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .newsletter-form button {
+            padding: 1rem 2rem;
+            background: var(--accent-warm);
+            color: var(--dark-text);
+            border: none;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .newsletter-form button:hover {
+            background: #ffb83d;
+        }
+
+        .newsletter-privacy {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 1.5rem;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: #1a2d3f;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 3rem 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-warm);
+        }
+
+        /* ========== PAST EVENTS (Comment out until populated) ========== */
+        .past-events {
+            background: rgba(41, 70, 117, 0.03);
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        .past-events h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .past-event-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .past-event-item {
+            padding: 1rem;
+            background: var(--card-bg);
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .past-event-item p {
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .past-event-city {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .past-event-count {
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        /* ========== SECTION HEADING ========== */
+        .section-label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--accent-warm);
+            margin-bottom: 1rem;
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 768px) {
+            section {
+                padding: 3rem 0;
+            }
+
+            .container {
+                padding: 0 1.5rem;
+            }
+
+            .btn {
+                padding: 0.85rem 2rem;
+                font-size: 0.95rem;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .newsletter-form input,
+            .newsletter-form button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <header>
+        <nav class="container" style="max-width: 1200px; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;">
+            <div class="logo">Meet the Light</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Andy</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#testimonials-full">Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; width: 100%; max-width: 1200px;">
+            <div class="hero-content">
+                <h1>Experience Ananda Transfer 1 to 1</h1>
+                <div class="hero-subheading">
+                    Participants access a profound state of <strong>Ananda</strong> (unconditional love and unity consciousness) led by Andy, a medical doctor with 15+ years experience. <a href="#testimonials-featured">See what others have experienced →</a>
+                </div>
+                <p style="font-size: 0.95rem; color: #666; margin: 2rem 0;">The experience manifests uniquely for each person—often as uncontrollable laughter, inexplicable joy, or deep peace. This is a gift, not a transaction. Donations cover logistics only.</p>
+                <button class="btn btn-primary" onclick="document.getElementById('events').scrollIntoView({ behavior: 'smooth' });">Join an Event</button>
+                <div class="proof-line">
+                    <span class="proof-dot"></span>
+                    Join hundreds from across Europe
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Abstract floral / light illustration -->
+                    <defs>
+                        <radialGradient id="flowerGradient1" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" style="stop-color:#ffc44f;stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#ffc44f;stop-opacity:0.1" />
+                        </radialGradient>
+                        <radialGradient id="flowerGradient2" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" style="stop-color:#a191bf;stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#a191bf;stop-opacity:0.1" />
+                        </radialGradient>
+                        <radialGradient id="flowerGradient3" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" style="stop-color:#b0c9d6;stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#b0c9d6;stop-opacity:0.1" />
+                        </radialGradient>
+                    </defs>
+
+                    <!-- Background soft circles -->
+                    <circle cx="150" cy="150" r="140" fill="url(#flowerGradient1)" opacity="0.15"/>
+
+                    <!-- Central flower petals -->
+                    <g transform="translate(150, 150)">
+                        <!-- Petal 1 -->
+                        <ellipse cx="0" cy="-50" rx="25" ry="45" fill="url(#flowerGradient1)" transform="rotate(0)"/>
+                        <!-- Petal 2 -->
+                        <ellipse cx="0" cy="-50" rx="25" ry="45" fill="url(#flowerGradient2)" transform="rotate(72)"/>
+                        <!-- Petal 3 -->
+                        <ellipse cx="0" cy="-50" rx="25" ry="45" fill="url(#flowerGradient3)" transform="rotate(144)"/>
+                        <!-- Petal 4 -->
+                        <ellipse cx="0" cy="-50" rx="25" ry="45" fill="url(#flowerGradient1)" transform="rotate(216)"/>
+                        <!-- Petal 5 -->
+                        <ellipse cx="0" cy="-50" rx="25" ry="45" fill="url(#flowerGradient2)" transform="rotate(288)"/>
+
+                        <!-- Center -->
+                        <circle cx="0" cy="0" r="18" fill="#294675" opacity="0.7"/>
+                        <circle cx="0" cy="0" r="12" fill="#ffc44f" opacity="0.6"/>
+                    </g>
+
+                    <!-- Accent circles -->
+                    <circle cx="80" cy="100" r="12" fill="#a191bf" opacity="0.5"/>
+                    <circle cx="220" cy="110" r="15" fill="#b0c9d6" opacity="0.4"/>
+                    <circle cx="100" cy="240" r="10" fill="#ffc44f" opacity="0.45"/>
+                    <circle cx="240" cy="200" r="13" fill="#a191bf" opacity="0.35"/>
+
+                    <!-- Light rays -->
+                    <line x1="150" y1="30" x2="150" y2="0" stroke="#ffc44f" stroke-width="2" opacity="0.6"/>
+                    <line x1="150" y1="270" x2="150" y2="300" stroke="#b0c9d6" stroke-width="2" opacity="0.5"/>
+                    <line x1="30" y1="150" x2="0" y2="150" stroke="#a191bf" stroke-width="2" opacity="0.5"/>
+                    <line x1="270" y1="150" x2="300" y2="150" stroke="#ffc44f" stroke-width="2" opacity="0.4"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ANDY ========== -->
+    <section id="about">
+        <div class="container">
+            <div class="section-label">Who is Andy?</div>
+            <div class="about-content">
+                <div class="about-photo">
+                    [Professional Headshot — Optional]
+                </div>
+                <p>
+                    Andy is a medical doctor with over 15 years of clinical experience, combining rigorous scientific training with a profound spiritual awakening. His credentials establish the credibility of his work—this is grounded, not commercial.
+                </p>
+                <p>
+                    Years ago, Andy discovered his gift: the ability to access and facilitate a state of Ananda (unconditional love and unity consciousness) at will. This wasn't sought; it emerged as part of his spiritual journey. Now, he shares this transformative experience with others.
+                </p>
+                <p>
+                    <strong>Privacy note:</strong> Andy lives and works in the Lake Zurich area. Exact location kept private for safety and peace. What matters is the experience he facilitates—not where it happens.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS (Featured) ========== -->
+    <section id="testimonials-featured">
+        <div class="container">
+            <div class="section-label">Voices from Our Community</div>
+            <h2>What People Experience</h2>
+            <p style="max-width: 700px; margin-bottom: 3rem; color: #666; font-size: 0.95rem;">
+                Names and identifying details changed to protect participants' privacy. <a href="#testimonials-full">Read more stories →</a>
+            </p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        "I walked in skeptical. Within minutes, I was laughing uncontrollably—not from anything funny, but from pure, unexplainable joy. It felt like remembering something I'd always known."
+                    </div>
+                    <div class="testimonial-author">— Sarah, First-time participant</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        "After years of meditation practice, this took me deeper than I've ever been. The sense of unity and love was profound. I felt less like an individual and more like part of everything."
+                    </div>
+                    <div class="testimonial-author">— Marcus, Experienced practitioner</div>
+                </div>
+            </div>
+
+            <div class="testimonials-cta">
+                <a href="#testimonials-full" class="read-more-link">Read more stories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EVENTS SECTION ========== -->
+    <section id="events">
+        <div class="container">
+            <div class="section-label">Join Us</div>
+            <h2>Upcoming Events</h2>
+
+            <div class="events-container">
+                <div class="event-card">
+                    <span class="event-type">In-Person</span>
+                    <h3>Appenzell, Switzerland</h3>
+                    <div class="event-date">September 20-21, 2024</div>
+                    <div class="event-description">
+                        A two-day immersive experience in the heart of the Swiss Alps. Limited to 40 participants.
+                    </div>
+                    <a href="#registration" class="btn btn-secondary" style="width: 100%; text-align: center;">Register Now</a>
+                </div>
+
+                <div class="event-card">
+                    <span class="event-type">In-Person</span>
+                    <h3>Munich, Germany</h3>
+                    <div class="event-date">September 26-27, 2024</div>
+                    <div class="event-description">
+                        Join our growing community in Munich. Open to all experience levels.
+                    </div>
+                    <a href="#registration" class="btn btn-secondary" style="width: 100%; text-align: center;">Register Now</a>
+                </div>
+
+                <div class="event-card">
+                    <span class="event-type">Virtual</span>
+                    <h3>Online Sessions</h3>
+                    <div class="event-date">Every Tuesday, 7:00 p.m. CET</div>
+                    <div class="event-description">
+                        Join from anywhere in the world. The experience transcends distance.
+                    </div>
+                    <a href="#registration" class="btn btn-secondary" style="width: 100%; text-align: center;">Register Now</a>
+                </div>
+            </div>
+
+            <!-- Past Events Proof Section -->
+            <div class="past-events">
+                <h3>Building Our Community</h3>
+                <p style="color: #666; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    We've hosted events across Europe, welcoming hundreds of participants from diverse backgrounds. Each event deepens our global community.
+                </p>
+                <div class="past-event-list">
+                    <div class="past-event-item">
+                        <p class="past-event-city">Ghent, Belgium</p>
+                        <p class="past-event-count">100+ participants</p>
+                    </div>
+                    <div class="past-event-item">
+                        <p class="past-event-city">Brussels, Belgium</p>
+                        <p class="past-event-count">100+ participants</p>
+                    </div>
+                    <div class="past-event-item">
+                        <p class="past-event-city">Peace Fields</p>
+                        <p class="past-event-count">5 events, 100+ each</p>
+                    </div>
+                    <div class="past-event-item">
+                        <p class="past-event-city">Helsingør, Denmark</p>
+                        <p class="past-event-count">Completed</p>
+                    </div>
+                    <div class="past-event-item">
+                        <p class="past-event-city">Hamburg, Germany</p>
+                        <p class="past-event-count">Completed</p>
+                    </div>
+                    <div class="past-event-item">
+                        <p class="past-event-city">Salzburg, Austria</p>
+                        <p class="past-event-count">Completed</p>
+                    </div>
+                </div>
+                <p style="text-align: center; color: #666; margin-top: 1.5rem; font-size: 0.9rem;">
+                    International community—<strong>we welcome you too.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ SECTION ========== -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-label">Questions?</div>
+            <h2>Frequently Asked Questions</h2>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is this a commercial activity?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        No. The experience is offered as a gift. We ask for heart-centered donations to cover venue, logistics, and facilitation. There is no profit motive—only the intention to share this transformative experience.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What are the prerequisites?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        None. Only an open heart and open mind to receive. No meditation experience, spiritual background, or prior knowledge is required. Skeptics are welcome—the experience speaks for itself.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What languages are sessions in?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Sessions are usually held in the local language of the location. English is available with a translator. What's important to know: the experience transcends language. The state of Ananda is felt, not spoken.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do I know this is real?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Read our testimonials. You'll find voices from newcomers, long-time practitioners, and even skeptics. The proof is in the experience—and in the consistency of what people report across diverse backgrounds and beliefs.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What should I expect?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Experiences vary. Common reports include uncontrollable laughter, inexplicable joy, deep peace, a sense of unity with others, or profound stillness. Some people describe it as remembering something they'd always known. Others simply feel loved. Come with openness, without expectations.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is there a refund policy?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Since this is offered as a gift with donations, we trust your heart. If circumstances change, reach out and we'll work with you. The intention is always mutual respect and understanding.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== NEWSLETTER SECTION ========== -->
+    <section class="newsletter">
+        <div class="container" style="max-width: 600px;">
+            <h2>Stay Informed</h2>
+            <p>
+                We respect your inbox. Our intention is not to send spam; we plan to share a newsletter only once a month with relevant information about upcoming events.
+            </p>
+            <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+                <input type="email" placeholder="your@email.com" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="newsletter-privacy">
+                <p>We respect your privacy. <a href="#privacy" style="color: var(--accent-warm);">Read our privacy policy</a></p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem;">🔒 GDPR compliant. Your data is safe with us.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS FULL PAGE (Separate Section) ========== -->
+    <section id="testimonials-full" style="background: var(--light-bg);">
+        <div class="container">
+            <div class="section-label">Our Stories</div>
+            <h2>Extended Testimonials</h2>
+            <p style="max-width: 700px; margin-bottom: 3rem; color: #666; font-size: 0.95rem;">
+                This section is yours to populate directly from GitHub. Add testimonial cards using the same structure below. Names and identifying details are changed to protect privacy.
+            </p>
+
+            <div id="testimonials-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- TEMPLATE: Copy this structure to add more testimonials from GitHub -->
+                <div class="testimonial-card" style="grid-column: span 1;">
+                    <div class="testimonial-quote">
+                        "Replace this with your testimonial quote. Keep it authentic and personal."
+                    </div>
+                    <div class="testimonial-author">— Name, Brief context</div>
+                </div>
+
+                <!-- Add more cards here -->
+            </div>
+
+            <p style="text-align: center; color: #999; margin-top: 3rem; font-size: 0.9rem;">
+                To add more testimonials, edit the HTML directly or use a data file (JSON) to populate this section dynamically.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <p style="margin-bottom: 1rem;">
+                <strong>Meet the Light</strong> — Experience Ananda Transfer 1 to 1
+            </p>
+            <p style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">
+                Located in the Lake Zurich area. <a href="mailto:contact@meetthelight.com">Contact us</a> | <a href="#privacy">Privacy Policy</a> | © 2024
+            </p>
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.closest('.faq-item');
+                faqItem.classList.toggle('open');
+            });
+        });
+
+        // Newsletter Form Handler (Placeholder)
+        function handleNewsletterSubmit(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input[type="email"]').value;
+            alert(`Thank you! We'll send updates to ${email}\n\n(This is a placeholder. Connect to your email service provider.)`);
+            event.target.reset();
+        }
+
+        // Smooth Scroll Anchor Links (already in CSS, but JS ensures fallback)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
