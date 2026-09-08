@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Appenzell",
+    "location": "Switzerland",
+    "badge": "In-Person",
+    "startDate": "2026-09-20",
+    "endDate": "2026-09-21",
+    "venue": "Venue details upon registration",
+    "accent": "#ffc44f",
+    "theme": "light"
+  },
+  {
+    "title": "Munich",
+    "location": "Germany",
+    "badge": "In-Person",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-27",
+    "venue": "Venue details upon registration",
+    "accent": "#a191bf",
+    "theme": "light"
+  },
+  {
+    "title": "Online",
+    "location": "From anywhere in the world",
+    "badge": "Virtual · Weekly",
+    "recurring": true,
+    "schedule": "Every Tuesday",
+    "time": "7:00 p.m. CET",
+    "accent": "#ffc44f",
+    "theme": "dark"
+  },
+  {
+    "title": "Brussels Peace Fields",
+    "count": 5
+  },
+  {
+    "title": "Helsingør"
+  },
+  {
+    "title": "Hamburg"
+  },
+  {
+    "title": "Salzburg"
+  },
+  {
+    "title": "Munich"
+  }
+]
