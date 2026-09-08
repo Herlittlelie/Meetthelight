@@ -21,3 +21,18 @@ button:focus-visible,input:focus-visible{outline:2px solid #ffc44f;outline-offse
 
 /* Loading / empty states for JSON-driven sections */
 .mtl-loading{font-size:14px;color:rgba(41,70,117,0.45);text-align:center;padding:20px 0;font-style:italic;}
+
+/* ── Testimonials masonry layout ── */
+.mtl-testimonials-grid{column-count:2;column-gap:22px;margin-bottom:56px;}
+.mtl-testimonials-grid>div{break-inside:avoid;margin-bottom:22px;}
+@media(max-width:680px){.mtl-testimonials-grid{column-count:1;}}
+
+/* ── Nav responsive ── */
+@media(max-width:700px){
+  #mainNav{padding:18px 5% !important;}
+  #mainNav .mtl-nav-links{gap:18px !important;}
+  #mainNav .mtl-nl{font-size:10px !important;letter-spacing:0.1em !important;}
+}
+@media(max-width:460px){
+  .mtl-nl-secondary{display:none !important;}
+}

@@ -16,7 +16,7 @@
   MTL.testimonialCard = function (t) {
     var accent = esc(t.accent || '#ffc44f');
     return '' +
-      '<div style="background:#fff;border-radius:3px;padding:36px;border-left:3px solid ' + accent + ';box-shadow:0 2px 20px rgba(41,70,117,0.05);">' +
+      '<div style="background:#fff;border-radius:3px;padding:36px;border-left:3px solid ' + accent + ';box-shadow:0 2px 20px rgba(41,70,117,0.05);break-inside:avoid;margin-bottom:22px;">' +
         '<p style="font-family:\'Cormorant Garamond\',serif;font-size:48px;font-weight:300;color:' + accent + ';line-height:0.7;margin-bottom:18px;">&ldquo;</p>' +
         '<p style="font-family:\'Cormorant Garamond\',serif;font-size:19px;font-style:italic;line-height:1.68;color:#294675;margin-bottom:28px;">' + esc(t.quote).replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>') + '</p>' +
         '<div style="display:flex;align-items:center;gap:12px;">' +

@@ -16,11 +16,11 @@
 <!-- NAV -->
 <nav id="mainNav" style="position:fixed;top:0;left:0;right:0;z-index:200;padding:28px 5%;display:flex;align-items:center;justify-content:space-between;transition:background 0.4s,box-shadow 0.4s,padding 0.4s;background:transparent;">
   <a id="navLogo" href="index.html" style="font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:300;letter-spacing:0.22em;text-transform:uppercase;color:#f9f7f2;transition:color 0.4s;flex-shrink:0;">Meet the Light</a>
-  <div style="display:flex;gap:32px;align-items:center;flex-wrap:wrap;">
-    <a href="index.html#about" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">About</a>
+  <div class="mtl-nav-links" style="display:flex;gap:32px;align-items:center;flex-wrap:wrap;">
+    <a href="index.html#about" class="mtl-nl mtl-nl-secondary" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">About</a>
     <a href="index.html#events" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">Events</a>
     <a href="testimonials.html" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">Testimonials</a>
-    <a href="index.html#faq" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">FAQ</a>
+    <a href="index.html#faq" class="mtl-nl mtl-nl-secondary" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">FAQ</a>
   </div>
 </nav>
 
@@ -45,7 +45,7 @@
       <p id="testimonials-count" style="font-size:13px;letter-spacing:0.04em;color:rgba(41,70,117,0.55);margin-bottom:18px;">&nbsp;</p>
       <p style="font-size:13px;color:rgba(41,70,117,0.5);font-style:italic;max-width:520px;margin:0 auto;">Names and identifying details have been changed to protect the privacy of the people who shared these experiences.</p>
     </div>
-    <div id="testimonials-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;margin-bottom:56px;">
+    <div id="testimonials-grid" class="mtl-testimonials-grid">
       <p class="mtl-loading">Loading testimonials…</p>
     </div>
     <p style="text-align:center;font-size:14px;color:rgba(41,70,117,0.5);">Want to write your own story? <a href="index.html#events" style="color:#294675;border-bottom:1px solid rgba(41,70,117,0.28);padding-bottom:1px;" style-hover="border-color:#294675;">Join an upcoming event →</a></p>
