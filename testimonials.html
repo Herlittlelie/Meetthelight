@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testimonials · Meet the Light</title>
+<meta name="description" content="Stories from participants of Ananda Transfer sessions. Names and identifying details have been changed to protect privacy.">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/common.js" defer></script>
+<script src="assets/js/render.js" defer></script>
+<script src="assets/js/testimonials.js" defer></script>
+</head>
+<body class="nav-solid">
+
+<!-- NAV -->
+<nav id="mainNav" style="position:fixed;top:0;left:0;right:0;z-index:200;padding:28px 5%;display:flex;align-items:center;justify-content:space-between;transition:background 0.4s,box-shadow 0.4s,padding 0.4s;background:transparent;">
+  <a id="navLogo" href="index.html" style="font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:300;letter-spacing:0.22em;text-transform:uppercase;color:#f9f7f2;transition:color 0.4s;flex-shrink:0;">Meet the Light</a>
+  <div style="display:flex;gap:32px;align-items:center;flex-wrap:wrap;">
+    <a href="index.html#about" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">About</a>
+    <a href="index.html#events" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">Events</a>
+    <a href="testimonials.html" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">Testimonials</a>
+    <a href="index.html#faq" class="mtl-nl" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(249,247,242,0.65);transition:color 0.3s;">FAQ</a>
+  </div>
+</nav>
+
+<!-- ══ TESTIMONIALS ══ -->
+<section style="background:#edeaf5;padding:clamp(140px,16vw,200px) 5% clamp(80px,10vw,140px);position:relative;overflow:hidden;">
+  <!-- Background botanical -->
+  <div style="position:absolute;right:-24px;bottom:-32px;opacity:0.07;pointer-events:none;transform:rotate(8deg);">
+    <svg width="180" height="280" viewBox="0 0 180 280" fill="none">
+      <line x1="90" y1="278" x2="90" y2="50" stroke="#294675" stroke-width="2.5"></line>
+      <path d="M90 240 C68 230 58 210 68 198 C78 186 90 200 90 215" stroke="#294675" stroke-width="2" fill="#294675"></path>
+      <path d="M90 240 C112 230 122 210 112 198 C102 186 90 200 90 215" stroke="#294675" stroke-width="2" fill="#294675"></path>
+      <path d="M90 198 C68 188 58 168 68 156 C78 144 90 158 90 173" stroke="#294675" stroke-width="2" fill="#294675"></path>
+      <path d="M90 198 C112 188 122 168 112 156 C102 144 90 158 90 173" stroke="#294675" stroke-width="2" fill="#294675"></path>
+      <ellipse cx="90" cy="46" rx="14" ry="24" stroke="#294675" stroke-width="2" fill="#294675"></ellipse>
+    </svg>
+  </div>
+  <div style="max-width:1160px;margin:0 auto;position:relative;z-index:1;">
+    <div style="text-align:center;margin-bottom:64px;">
+      <a href="index.html" style="display:inline-block;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(41,70,117,0.5);margin-bottom:24px;" style-hover="color:#294675;">← Back to home</a>
+      <p style="font-size:10px;letter-spacing:0.24em;text-transform:uppercase;color:rgba(41,70,117,0.42);margin-bottom:16px;">Voices from Our Community</p>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(34px,4vw,52px);font-weight:300;color:#294675;margin-bottom:14px;">What Participants Experience</h1>
+      <p id="testimonials-count" style="font-size:13px;letter-spacing:0.04em;color:rgba(41,70,117,0.55);margin-bottom:18px;">&nbsp;</p>
+      <p style="font-size:13px;color:rgba(41,70,117,0.5);font-style:italic;max-width:520px;margin:0 auto;">Names and identifying details have been changed to protect the privacy of the people who shared these experiences.</p>
+    </div>
+    <div id="testimonials-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;margin-bottom:56px;">
+      <p class="mtl-loading">Loading testimonials…</p>
+    </div>
+    <p style="text-align:center;font-size:14px;color:rgba(41,70,117,0.5);">Want to write your own story? <a href="index.html#events" style="color:#294675;border-bottom:1px solid rgba(41,70,117,0.28);padding-bottom:1px;" style-hover="border-color:#294675;">Join an upcoming event →</a></p>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer style="background:#19243a;padding:56px 5% 36px;">
+  <div style="max-width:1160px;margin:0 auto;">
+    <div style="display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start;justify-content:space-between;margin-bottom:48px;">
+      <div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:300;letter-spacing:0.22em;text-transform:uppercase;color:rgba(249,247,242,0.82);margin-bottom:10px;">Meet the Light</p>
+        <p style="font-size:12px;color:rgba(249,247,242,0.3);line-height:1.6;">Ananda Transfer 1 to 1<br>Lake Zurich · Europe</p>
+      </div>
+      <div style="display:flex;gap:28px;flex-wrap:wrap;align-items:center;">
+        <a href="index.html#about" style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(249,247,242,0.38);transition:color 0.2s;" style-hover="color:rgba(249,247,242,0.8);">About</a>
+        <a href="index.html#events" style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(249,247,242,0.38);transition:color 0.2s;" style-hover="color:rgba(249,247,242,0.8);">Events</a>
+        <a href="testimonials.html" style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(249,247,242,0.38);transition:color 0.2s;" style-hover="color:rgba(249,247,242,0.8);">Testimonials</a>
+        <a href="index.html#faq" style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(249,247,242,0.38);transition:color 0.2s;" style-hover="color:rgba(249,247,242,0.8);">FAQ</a>
+        <a href="index.html#newsletter" style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(249,247,242,0.38);transition:color 0.2s;" style-hover="color:rgba(249,247,242,0.8);">Newsletter</a>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(249,247,242,0.06);padding-top:28px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;">
+      <p style="font-size:11px;color:rgba(249,247,242,0.22);">© 2025 Meet the Light. All rights reserved.</p>
+      <a href="#" style="font-size:11px;color:rgba(249,247,242,0.28);border-bottom:1px solid rgba(249,247,242,0.12);" style-hover="color:rgba(249,247,242,0.6);">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
