@@ -4,7 +4,7 @@
     "location": "Switzerland",
     "badge": "In-Person",
     "startDate": "2026-09-20",
-    "endDate": "2026-09-21",
+    "endDate": "2026-09-20",
     "venue": "Venue details upon registration",
     "accent": "#ffc44f",
     "theme": "light"
@@ -30,19 +30,122 @@
     "theme": "dark"
   },
   {
-    "title": "Brussels Peace Fields",
-    "count": 5
+    "title": "Peace Field",
+    "location": "Geel, Belgium",
+    "badge": "In-Person",
+    "startDate": "2026-08-28",
+    "endDate": "2026-08-29",
+    "venue": "Peace Field",
+    "accent": "#ffc44f",
+    "theme": "light"
   },
   {
-    "title": "Helsingør"
+    "title": "Peace Field",
+    "location": "Geel, Belgium",
+    "badge": "In-Person",
+    "startDate": "2026-07-17",
+    "endDate": "2026-07-19",
+    "venue": "Peace Field",
+    "accent": "#a191bf",
+    "theme": "light"
   },
   {
-    "title": "Hamburg"
+    "title": "Helsingborg",
+    "location": "Sweden",
+    "badge": "In-Person",
+    "startDate": "2026-05-08",
+    "endDate": "2026-05-10",
+    "venue": "Venue details upon registration",
+    "accent": "#b0c9d6",
+    "theme": "light"
   },
   {
-    "title": "Salzburg"
+    "title": "Appenzell",
+    "location": "Switzerland",
+    "badge": "In-Person",
+    "startDate": "2026-04-26",
+    "endDate": "2026-04-26",
+    "venue": "Venue details upon registration",
+    "accent": "#294675",
+    "theme": "light"
   },
   {
-    "title": "Munich"
+    "title": "Peace Field",
+    "location": "Geel, Belgium",
+    "badge": "In-Person",
+    "startDate": "2026-04-10",
+    "endDate": "2026-04-12",
+    "venue": "Peace Field",
+    "accent": "#ffc44f",
+    "theme": "light"
+  },
+  {
+    "title": "Peace Field",
+    "location": "Geel, Belgium",
+    "badge": "In-Person",
+    "startDate": "2026-03-21",
+    "endDate": "2026-03-22",
+    "venue": "Peace Field",
+    "accent": "#a191bf",
+    "theme": "light"
+  },
+  {
+    "title": "Salzburg",
+    "location": "Austria",
+    "badge": "In-Person",
+    "startDate": "2026-02-06",
+    "endDate": "2026-02-08",
+    "venue": "Venue details upon registration",
+    "accent": "#b0c9d6",
+    "theme": "light"
+  },
+  {
+    "title": "Budapest",
+    "location": "Hungary",
+    "badge": "In-Person",
+    "startDate": "2026-01-16",
+    "endDate": "2026-01-18",
+    "venue": "Venue details upon registration",
+    "accent": "#294675",
+    "theme": "light"
+  },
+  {
+    "title": "Peace Field",
+    "location": "Geel, Belgium",
+    "badge": "In-Person",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-14",
+    "venue": "Peace Field",
+    "accent": "#ffc44f",
+    "theme": "light"
+  },
+  {
+    "title": "Munich",
+    "location": "Germany",
+    "badge": "In-Person",
+    "startDate": "2025-11-29",
+    "endDate": "2025-11-30",
+    "venue": "Venue details upon registration",
+    "accent": "#a191bf",
+    "theme": "light"
+  },
+  {
+    "title": "Hannover",
+    "location": "Germany",
+    "badge": "In-Person",
+    "startDate": "2025-09-19",
+    "endDate": "2025-09-21",
+    "venue": "Venue details upon registration",
+    "accent": "#b0c9d6",
+    "theme": "light"
+  },
+  {
+    "title": "Peace Field",
+    "location": "Geel, Belgium",
+    "badge": "In-Person",
+    "startDate": "2025-08-08",
+    "endDate": "2025-08-10",
+    "venue": "Peace Field",
+    "accent": "#294675",
+    "theme": "light"
   }
-]
