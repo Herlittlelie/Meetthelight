@@ -116,8 +116,12 @@
   };
 
   MTL.eventPill = function (ev) {
-    var label = esc(ev.title) + (ev.count ? ' ×' + esc(ev.count) : '');
-    return '<span style="font-size:13px;color:rgba(41,70,117,0.58);padding:7px 16px;border:1px solid rgba(41,70,117,0.1);border-radius:100px;">' + label + '</span>';
+    var date = ev.startDate ? MTL.formatEventDate(ev.startDate, ev.endDate || ev.startDate) : '';
+    return '<div style="display:flex;align-items:baseline;gap:20px;padding:13px 0;border-bottom:1px solid rgba(41,70,117,0.07);">' +
+      '<span style="font-size:11px;letter-spacing:0.07em;color:rgba(41,70,117,0.38);min-width:170px;flex-shrink:0;">' + esc(date) + '</span>' +
+      '<span style="font-family:\'Cormorant Garamond\',serif;font-size:17px;font-weight:400;color:#294675;flex:1;">' + esc(ev.title || '') + '</span>' +
+      '<span style="font-size:11px;color:rgba(41,70,117,0.46);white-space:nowrap;">' + esc(ev.location || '') + '</span>' +
+    '</div>';
   };
 
   // Split events into upcoming (cards) and past (pills) by date.
